@@ -37,5 +37,3 @@ References:
 • Saah, A., 8 Best Domain Registration Sites In South Africa To Get Cheap Domains Available at:<https://www.domains.co.za/blog/create-a-landing-page/> [Accessed 20 August 2026]
 • Van Greuning, D., 2026. Website Cost South Africa: The Proven Guide to What You Should Actually Pay (2026 Guide) [blog] 29 January. Available at:<https://www.growthpulsemedia.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
 • Tristan, 2026. How Much Does a Website Cost in South Africa? [blog] 3 August. Available at: <https://dotdigital.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
-  <img width="1276" height="711" alt="Screenshot 2026-04-09 232743" src="https://github.com/user-attachments/assets/df10896e-293d-42a2-8695-5ce16fae77b6" />
-
