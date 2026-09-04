@@ -17,31 +17,25 @@ Features and Functionality:
 . Impact page: A page for displaying the work the company has done over the years.
 •	Donations page: A page that highlights methods to donate to the organisation
 •	About us page: A page to display what the overall vision, objectives and methods to achieve those objectives
-•	Contact page: A page to display method in contacting the NPO
+•	Contact page: A page to display method in contacting the NPO to donate or volunteer
 
 Timeline & Milestones:
+Part 1 - submit 4 Sep: functioning website
 
 Part 1 details:
+Creating the basic website structure for an improved Khulisa Social Solutions website.
 
-Sitemap:
+Sitemap: <img width="1361" height="771" alt="Screenshot 2026-09-04 164536" src="https://github.com/user-attachments/assets/73ae0fdb-b08b-4353-a890-7621b943059c" />
 
 Changelog:
+Removed events page to impact page.
+Fewer pictures on the home page.
 
 References:
-Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
-Register Domain SA, 2025. Understanding The Costs Of Domain Registration And Hosting In South Africa [online] Available at:<> [19 August 2026]
-Saah, A., 8 Best Domain Registration Sites In South Africa To Get Cheap Domains Available at:<https://www.domains.co.za/blog/create-a-landing-page/> [Accessed 20 August 2026]
-Van Greuning, D., 2026. Website Cost South Africa: The Proven Guide to What You Should Actually Pay (2026 Guide) [blog] 29 January. Available at:< Website Cost South Africa: The Complete Hub by Business Type to Stop Wasting Budget (2026)> [Accessed 20 August 2026]
-Tristan, 2026. How Much Does a Website Cost in South Africa? [blog] 3 August. Available at: <How Much Does a Website Cost in South Africa? 2026 Guide> [Accessed 20 August 2026]
-
-
-
-
-
-
-
-
-
-
+• Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
+• Register Domain SA, 2025. Understanding The Costs Of Domain Registration And Hosting In South Africa [online] Available at:<https://www.registerdomain.co.za/blog/domain-registration-south-africa/> [19 August 2026]
+• Saah, A., 8 Best Domain Registration Sites In South Africa To Get Cheap Domains Available at:<https://www.domains.co.za/blog/create-a-landing-page/> [Accessed 20 August 2026]
+• Van Greuning, D., 2026. Website Cost South Africa: The Proven Guide to What You Should Actually Pay (2026 Guide) [blog] 29 January. Available at:<https://www.growthpulsemedia.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
+• Tristan, 2026. How Much Does a Website Cost in South Africa? [blog] 3 August. Available at: <https://dotdigital.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
   <img width="1276" height="711" alt="Screenshot 2026-04-09 232743" src="https://github.com/user-attachments/assets/df10896e-293d-42a2-8695-5ce16fae77b6" />
 
