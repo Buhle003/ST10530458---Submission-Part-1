@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Donate | Khulisa Social Solutions</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link
+        rel="stylesheet"
+        href="styles.css">
+
+
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo-icon">☀</div>
+
+        <div class="logo-text">
+
+            <strong>Khulisa Social Solutions</strong>
+
+        </div>
+
+        
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+        </nav>
+
+</header>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="programmes.html">
+                    Programmes
+                </a>
+            </li>
+
+            <li>
+                <a href="impact.html">
+                    Our Impact
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About Us
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                Contact
+            </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+<!--Donate hero-->
+
+<section class="donate-hero">
+
+    <div class="donate-hero-content">
+
+        <h1>
+            Make a Difference Today
+        </h1>
+
+        <p>
+            Your contribution can help us create lasting social change.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!--Donation form section-->
+
+<section class=""donation-section">
+
+    <div class="donation-container">
+
+        <!--Left Side-->
+
+        <div class="donation-info">
+
+            <h2>
+                Support Our Cause
+            </h2>
+
+            <p>
+                Every donation, no matter the amount,helps Khulisa Social Solutions work towards creating meaningful and sustainable change in communities.
+            </p>
+
+            <div class="donation-benefits">
+
+                <div class="benefit">
+
+                    <h3>
+                        Sustainable Solutions
+                    </h3>
+
+                    <p>
+                        Creating long-term solutions for social change.
+                    </p>
+
+                </div>
+
+                   <div class="benefit">
+
+                    <h3>
+                        Community Development
+                    </h3>
+
+                    <p>
+                        Supporting initiatives that improve community well-being and create opportunities.
+                    </p>
+
+                </div>
+
+                   <div class="benefit">
+
+                    <h3>
+                        Positive Impact
+                    </h3>
+
+                    <p>
+                        Ensuring people to create a better future for themselves and others.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Right Side-->
+
+        <div class="donation-form">
+
+            <h2>
+                Choose Your Donation
+            </h2>
+
+            <p>
+                Select and amount or enter a custom amount.
+            </p>
+
+            <!--Donation Amount-->
+
+            <div class="amount-options">
+                
+                <button type="button" class="amount-btn" data-amount="100">
+                    R100
+                </button>
+
+                <button type="button" class="amount-btn" data-amount="250">
+                    R250
+                </button>
+
+                <button type="button" class="amount-btn" data-amount="500">
+                    R500
+                </button>
+
+                <button type="button" class="amount-btn" data-amount="1000">
+                    R1000
+                </button>
+
+            </div>
+
+            <!--Custom Amount-->
+
+            <label for="amount">
+                Custom Amount
+            </label>
+
+            <div class="amount-input">
+                <span>R</span>
+
+                <input
+                   type="number"
+                   id="amount"
+                   placeholder="Enter amount"
+                   min="1">
+
+            </div>
+
+            <!--Name-->
+            <label for="name">
+                Full Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name">
+
+            <!--Email-->
+            <label for="email">
+                Email Address
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address">
+
+            <!--Payment Method-->
+
+            <label>
+                Payment Method
+            </label>
+
+            <div class="payment-options">
+
+                <label class="payment-option">
+
+                    <input
+                        type="radio"
+                        name="payment"
+                        value="Card"
+                        checked>
+
+                    <span>Card</span>
+
+                </label>
+
+              <label class="payment-option">
+
+                    <input
+                        type="radio"
+                        name="payment"
+                        value="EFT"
+                        checked>
+
+                    <span>EFT</span>
+
+                </label>
+
+
+                <!--Donate Button-->
+
+                <button
+                  type="button"
+                  class="complete-donation-btn"
+                  onclick="completeDonation()">
+                    
+                  Donate Now
+                </button>
+
+                <p class="secure-text">
+                    Your information is safe with us.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+ <!-- Thank You Section -->
+    <section class="thank-you-section">
+
+        <h2>Together, We Can Create Change</h2>
+
+        <p>
+            Thank you for supporting KhulisaSocial Solutions
+            and helping us make a positive impact.
+        </p>
+
+    </section>
+
+    
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <!--Newsletter-->
+
+        <div class="newsletter">
+
+            <div class="newsletter-text">
+                STAY INFORMED ON SOCIAL PROGRESS
+            </div>
+
+            <div class="newsletter-form">
+
+                <input
+                     type="email"
+                     placeholder="Email"
+                     id="newsletterEmail">
+                
+                <button onclick="subscribeNewsletter()">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+
+        <!--Footer Main-->
+
+        <div class="footer-main">
+
+            <div class="footer-logo">
+
+                <img
+                   src="images/khulisa-logo.png"
+                   alt="Khulisa Social Solutions">
+
+
+            </div>
+
+
+            <div class="footer-grid">
+
+                <!--Contact-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <P>
+                        105 Oxford Road
+                    </P>
+
+                    <p>
+                        Johannesburg, South Africa
+                    </p>
+
+                    <p>
+                        name@Khulisa.org.za
+                    </p>
+
+                    <p>
+                        011 788 8237
+                    </p>
+
+                </div>
+
+                <!--Social-->
+
+                <div class="footer-column">
+
+                    
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!--Legal-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        LEGAL
+                    </h3>
+
+                    <p>
+                        © 2026 Khulisa Social Solutions.
+                    </p>
+
+                    <p>
+                        All Rights Reserved.
+                    </p>
+
+                    <p>
+                        Non-Profit Organisation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+             © 2026 Khulisa Social Solutions.
+             All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+      function subscribeNewsletter() {
+
+        const email = document.getElementById("newsletterEmail").value;
+
+        if (email === "") {
+
+            alert("Please enter your email address.");
+
+            return;
+
+        }
+
+        alert("Thank you for subscribing to Khulisa Social Solutions!");
+
+        document.getElementById("newsletterEmail").value = "";
+
+      }
+
+    </script>
+
+
+</body>
+</html>

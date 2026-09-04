@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Impact | Khulisa Social Solutions</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+<!--Navigation-->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <img
+               src="images/khulisa-logo.png"
+               alt="Khulisa Social Solutions Logo">
+
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="programmes.html">
+                    Programmes
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About Us
+                </a>
+            </li>
+
+            <li>
+                <a href="donate.html">
+                    Donate
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!--Impact Hero--> 
+
+
+<section class="impact-hero">
+
+<div class="impact-hero-content">
+
+    <h1 class="section-label">
+        Our Impact
+    </h1>
+
+    <p>
+        We measure out impact by the people, communities and opportunities touched through our work.
+    </p>
+
+
+</div>
+
+
+<div class="impact-hero-image">
+
+
+    <img 
+        src="images/community4.jpg"
+        alt="example image">
+
+
+</div>
+
+
+</section>
+
+
+
+<!--Impact Introduction -->
+
+
+<section class="impact-intro">
+
+    <h2 class="section-label">
+        Making A Difference
+    </h2>
+
+    <strong>Creating meaningful community impact</strong>
+
+    <p>
+        Our initiatives focus on creating practical opportunities and supporting communities through collaboration, participation and empowerment.
+    </p>
+
+</section>
+
+
+
+
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <!--Newsletter-->
+
+        <div class="newsletter">
+
+            <div class="newsletter-text">
+                STAY INFORMED ON SOCIAL PROGRESS
+            </div>
+
+            <div class="newsletter-form">
+
+                <input
+                     type="email"
+                     placeholder="Email"
+                     id="newsletterEmail">
+                
+                <button onclick="subscribeNewsletter()">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+
+        <!--Footer Main-->
+
+        <div class="footer-main">
+
+            <div class="footer-logo">
+
+                <img
+                   src="images/khulisa-logo.png"
+                   alt="Khulisa Social Solutions">
+
+
+            </div>
+
+
+            <div class="footer-grid">
+
+                <!--Contact-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <P>
+                        105 Oxford Road
+                    </P>
+
+                    <p>
+                        Johannesburg, South Africa
+                    </p>
+
+                    <p>
+                        name@Khulisa.org.za
+                    </p>
+
+                    <p>
+                        011 788 8237
+                    </p>
+
+                </div>
+
+                <!--Social-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        SOCIALS
+                    </h3>
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!--Legal-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        LEGAL
+                    </h3>
+
+                    <p>
+                        © 2026 Khulisa Social Solutions.
+                    </p>
+
+                    <p>
+                        All Rights Reserved.
+                    </p>
+
+                    <p>
+                        Non-Profit Organisation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+             © 2026 Khulisa Social Solutions.
+             All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+      function subscribeNewsletter() {
+
+        const email = document.getElementById("newsletterEmail").value;
+
+        if (email === "") {
+
+            alert("Please enter your email address.");
+
+            return;
+
+        }
+
+        alert("Thank you for subscribing to Khulisa Social Solutions!");
+
+        document.getElementById("newsletterEmail").value = "";
+
+      }
+
+    </script>
+
+
+</body>
+</html>
