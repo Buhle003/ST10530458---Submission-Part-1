@@ -30,6 +30,7 @@ Sitemap: <img width="1361" height="771" alt="Screenshot 2026-09-04 164536" src="
 Changelog:
 Removed events page to impact page.
 Fewer pictures on the home page.
+Removed dark mode button.
 
 References:
 • Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
