@@ -7,67 +7,43 @@
 
     <title>Donate | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="style.css">
-
-
-    <link
-        rel="stylesheet"
-        href="styles.css">
-
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!--Navigation-->
+    <!--Naviagtion bar-->
 
-<header>
+    <header class="navbar">
 
-    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">☀</div>
+            <div class="logo-text">
+                <strong>Khulisa Social Solutions</strong>
 
-        <div class="logo-icon">☀</div>
-
-        <div class="logo-text">
-
-            <strong>Khulisa Social Solutions</strong>
-
+            </div>
         </div>
 
-        
         <nav class="navigation">
             <a href="index.html">Home</a>
         </nav>
 
-</header>
+    </header>
 
 
-        <ul class="nav-links">
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
+        ☰
+    </button>
 
-            <li>
-                <a href="programmes.html">
-                    Programmes
-                </a>
-            </li>
+    <nav class="nav-menu" id="navMenu">
 
-            <li>
-                <a href="impact.html">
-                    Our Impact
-                </a>
-            </li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
 
-            <li>
-                <a href="about.html">
-                    About Us
-                </a>
-            </li>
-
-            <li>
-                <a href="contact.html">
-                Contact
-            </a>
-            </li>
-
-        </ul>
+    </nav>
 
     </nav>
 
@@ -443,6 +419,8 @@
 
     </script>
 
+    <script src="script.js"></script>
 
 </body>
+
 </html>
