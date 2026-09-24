@@ -14,6 +14,8 @@
 <body>
 
     <!--Naviagtion bar-->
+
+
     <header class="navbar">
 
         <div class="logo">
@@ -25,29 +27,28 @@
         </div>
 
         <nav class="navigation">
-            <a href="#home">Home</a>
+
+
             <li><a href="donate.html">Donate Now</a></li>
         </nav>
 
     </header>
 
 
-    <button class="menu-toggle" onclick="toggleMenu()">
+
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
         ☰
     </button>
 
-    <ul class="nav-links" id="navLinks">
+    <nav class="nav-menu" id="navMenu">
+
+        
         <li><a href="programmes.html">Programmes</a></li>
         <li><a href="impact.html">Our Impact</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact</a></li>
-
-        <li>
-            <button class="dark.btn" onclick="toggleDarkMode()">
-                🌙
-            </button>
-        </li>
-    </ul>
+    
+    </nav>
 
     </nav>
 
@@ -85,6 +86,8 @@
 
         <section id="impact" class="impact-section">
 
+
+
             <div class="impact-heading">
 
                 <h2>
@@ -95,6 +98,9 @@
                     EMPOWERING COMMUNITIES THROUGH SUSTAINABLE SOCIAL SOLUTIONS AND MEASURABLE CHANGE.
                 </p>
             </div>
+
+
+            <div class="impact-container">
 
             <!--Card 1 -->
             <div class="impact-card">
@@ -127,7 +133,11 @@
             </div>
 
             </div>
-        </section>
+
+        </div>
+
+
+    </section>
 
         <!--Communities Initiatives Section-->
         <section class="community-section">
@@ -381,7 +391,12 @@
             © 2026 Khulisa Social Solutions. All Rights Reserved.
 
         </div>
+
+
     </footer>
+
+  <script src="script.js"></script>
+
 
 </body>
 
