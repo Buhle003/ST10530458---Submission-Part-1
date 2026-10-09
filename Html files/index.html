@@ -7,7 +7,10 @@
 
     <title>Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
@@ -15,8 +18,7 @@
 
     <!--Naviagtion bar-->
 
-
-    <header class="navbar">
+    <div class="navbar">
 
         <div class="logo">
             <div class="logo-icon">☀</div>
@@ -27,30 +29,29 @@
         </div>
 
         <nav class="navigation">
-
-
-            <li><a href="donate.html">Donate Now</a></li>
+            <a href="donate.html">Donate Now</a>
         </nav>
 
-    </header>
+    </div>
 
 
-
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
         ☰
     </button>
 
     <nav class="nav-menu" id="navMenu">
 
-        
-        <li><a href="programmes.html">Programmes</a></li>
-        <li><a href="impact.html">Our Impact</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <a href="programmes.html">Programmes</a>
+        <a href="impact.html">Our Impact</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
     
     </nav>
 
-    </nav>
+</nav>
+
+</div>
+
 
     <!--Hero Section -->
 
@@ -87,7 +88,6 @@
         <section id="impact" class="impact-section">
 
 
-
             <div class="impact-heading">
 
                 <h2>
@@ -99,8 +99,7 @@
                 </p>
             </div>
 
-
-            <div class="impact-container">
+        <div class="impact-container">
 
             <!--Card 1 -->
             <div class="impact-card">
@@ -135,7 +134,6 @@
             </div>
 
         </div>
-
 
     </section>
 
@@ -251,7 +249,7 @@
             <!--Right side: Image-->
             <div class="join-image">
                 
-                <img src="images/volunteers.jpg" alt="Join Our Mission">
+                <img src="img/join our mission.jpg" alt="Join Our Mission" width="800">
 
             </div>
 
@@ -266,94 +264,135 @@
                 <!--Image 1 -->
                 <div class="gallery-item">
                     <img
-                        src=""
-                        alt="Field Story 1" >
+                        src="/img/field story 1.jpg"
+                        alt="Field Story 1" 
+                        height="400">
 
                 </div>
 
                 <!--Image 2 -->
                 <div class="gallery-item">
                     <img
-                        src=""
-                        alt="Field Story 2">
+                        src="/img/field story 2.png"
+                        alt="Field Story 2"
+                        width="600">
                 </div>
 
                 <!--Image 3 -->
                 <div class="gallery-item">
                     <img
-                        src=""
-                        alt="Field Story 3">
+                        src="/img/field story 3.webp"
+                        alt="Field Story 3"
+                        width="600">
                 </div>
 
             
             </div>
     </section>
 
-    <!--Newsletter and Footer-->
-    
+ <!--Footer-->
+
     <footer class="footer">
 
-        <!--Newsletter Bar -->
+        <!--Newsletter-->
+
         <div class="newsletter">
 
             <div class="newsletter-text">
-                STAY INFORMED ONN SOCIAL PROGRESS
+                STAY INFORMED ON SOCIAL PROGRESS
             </div>
 
             <div class="newsletter-form">
 
-                <input type="email" placeholder="Email">
-
+                <input
+                     type="email"
+                     placeholder="Email"
+                     id="newsletterEmail">
+                
                 <button onclick="subscribeNewsletter()">
                     Subscribe
                 </button>
-
+                
             </div>
 
         </div>
 
-        <!--Footer Main-->
+
+ <!--Footer Main-->
+
         <div class="footer-main">
 
-            <!--Logo-->
             <div class="footer-logo">
-                <img src="images/khulisa-logo.png"
-                     alt="Khulisa Social Solutions Logo">
+
+                <img
+                   src="/img/khulisa-logo.png"
+                   alt="Khulisa Social Solutions">
+
+
             </div>
 
-            <!--Footer Colums-->
+
             <div class="footer-grid">
 
                 <!--Contact-->
+
                 <div class="footer-column">
 
                     <h3>
-                        CONTACT
+                        Contact
                     </h3>
 
-                    <p>
+                    <P>
                         105 Oxford Road
-                    </p>
+                    </P>
+
                     <p>
                         Johannesburg, South Africa
                     </p>
+
                     <p>
                         name@Khulisa.org.za
                     </p>
+
                     <p>
                         011 788 8237
                     </p>
 
                 </div>
 
-                <!--Socials -->
-
+                <!--Social-->
 
                 <div class="footer-column">
 
                     <h3>
                         SOCIALS
                     </h3>
+
+                    <div class="social-icons">
+
+                        <a href="https://web.facebook.com/Khulisa/?_rdc=1&_rdr#"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <Text>KHULISA SOCIAL SOLUTIONS</Text>
+                        </a>
+
+                        <a href="https://www.instagram.com/khulisasa/"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <Text>khulisasa</Text>
+                        </a>
+
+                        <a href="https://za.linkedin.com/company/khulisa-social-solutions"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                            <Text>Khulisa Social Solutions</Text>
+                        </a>
 
                     </div>
 
@@ -385,18 +424,16 @@
 
         </div>
 
-        <!--Bottom Copyright-->
         <div class="footer-bottom">
 
-            © 2026 Khulisa Social Solutions. All Rights Reserved.
+             © 2026 Khulisa Social Solutions.
+             All Rights Reserved.
 
         </div>
-
 
     </footer>
 
   <script src="script.js"></script>
-
 
 </body>
 

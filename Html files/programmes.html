@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,9 +7,12 @@
 
     <title>Programmes And Services | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
 </head>
 
 <body>
@@ -38,11 +41,11 @@
     </button>
 
     <nav class="nav-menu" id="navMenu">
-        
-        <li><a href="impact.html">Our Impact</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="contact.html">Contact</a></li>
+
+        <a href="impact.html">Our Impact</a>
+        <a href="about.html">About Us</a>
+        <a href="donate.html">Donate</a>
+        <a href="contact.html">Contact</a>
 
     </nav>
 
@@ -67,13 +70,6 @@
 
     </div>
 
-    <div class="programmes-hero-image">
-
-        <img
-            src="images/community4.jpg"
-            alt="example image">
-
-    </div>
 </section>
 
 <section class="programmes-intro">
@@ -99,7 +95,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community1.jpg"
+                src="/img/community image 1.jpg"
                 alt="example image">
 
         </div>
@@ -134,7 +130,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community2.jpg"
+                src="img/community image 2.webp"
                 alt="example image">
 
         </div>
@@ -169,7 +165,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community3.jpg"
+                src="/img/community image 3.jpg"
                 alt="example iamge">
 
         </div>
@@ -203,7 +199,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community4.jpg"
+                src="/img/community image 4.jpg"
                 alt="example iamge">
 
         </div>
@@ -237,7 +233,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community5.jpg"
+                src="/img/community image 5.jpeg"
                 alt="example iamge">
 
         </div>
@@ -271,7 +267,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community6.jpg"
+                src="/img/community image 6.jpg"
                 alt="example iamge">
 
         </div>
@@ -305,7 +301,7 @@
         <div class="programme-image">
 
             <img
-                src="image/community7.jpg"
+                src="/img/community image 7.jpg"
                 alt="example iamge">
 
         </div>
@@ -339,8 +335,8 @@
         <div class="programme-image">
 
             <img
-                src="image/community8.jpg"
-                alt="example iamge">
+                src="/img/community image 8.jpg"
+                alt="example image">
 
         </div>
 
@@ -386,7 +382,7 @@
     <div class="programme-approach-image">
 
         <img
-           src="images/community1.jpg"
+           src="/img/approach.jpg"
            alt="example iamge">
 
     </div>
@@ -470,61 +466,60 @@
 
 </section>
 
-<!--Footer-->
+ <!--Footer-->
 
-<footer class="footer">
+    <footer class="footer">
 
+        <!--Newsletter-->
 
-    <!--Newsletter-->
+        <div class="newsletter">
 
-    <div class="newsletter">
+            <div class="newsletter-text">
+                STAY INFORMED ON SOCIAL PROGRESS
+            </div>
 
-        <div class="newsletter-text">
-            STAY INFORMED ON SOCIAL PROGRESS
-        </div>
+            <div class="newsletter-form">
 
-        <div class="newsletter-form">
-
-            <input
-                 type="email"
-                 placeholder="Email"
-                 id="newsletter">
-
-            <button onclick="subscribeNewsletter()">
-                Subscribe
-            </button>
-
-        </div>
-
-    </div>
-
-
-    <!--Footer Main-->
-
-    <div class="footer-main">
-
-        <div class="footer-logo">
-
-            <img
-                src="images/khulisa-logo.png"
-                alt="Khulisa Social Solutions Logo">
+                <input
+                     type="email"
+                     placeholder="Email"
+                     id="newsletterEmail">
+                
+                <button onclick="subscribeNewsletter()">
+                    Subscribe
+                </button>
+            </div>
 
         </div>
 
-        <div class="footer-grid">
+
+ <!--Footer Main-->
+
+        <div class="footer-main">
+
+            <div class="footer-logo">
+
+                <img
+                   src="img/khulisa-logo.png"
+                   alt="Khulisa Social Solutions">
 
 
-            <!--Contact-->
+            </div>
 
-            <div class="footer-column">
 
-                <h3>
-                    Contact
-                </h3>
+            <div class="footer-grid">
 
-                <p>
+                <!--Contact-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <P>
                         105 Oxford Road
-                    </p>
+                    </P>
 
                     <p>
                         Johannesburg, South Africa
@@ -540,7 +535,8 @@
 
                 </div>
 
-                <!--Socials -->
+                <!--Social-->
+
                 <div class="footer-column">
 
                     <h3>
@@ -549,24 +545,35 @@
 
                     <div class="social-icons">
 
-                        <a href="#">
+                        <a href="https://web.facebook.com/Khulisa/?_rdc=1&_rdr#"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Facebook">
                             <i class="fab fa-facebook"></i>
+                            <Text>KHULISA SOCIAL SOLUTIONS</Text>
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.instagram.com/khulisasa/"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
+                            <Text>khulisasa</Text>
                         </a>
 
-                        <a href="#">
+                        <a href="https://za.linkedin.com/company/khulisa-social-solutions"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
+                            <Text>Khulisa Social Solutions</Text>
                         </a>
 
                     </div>
-                </div>
-            </div>
-        </div>
 
-                        <!--Legal-->
+                </div>
+
+                <!--Legal-->
 
                 <div class="footer-column">
 
@@ -592,15 +599,17 @@
 
         </div>
 
-
-        <!--Bottom Copyright-->
         <div class="footer-bottom">
 
-            © 2026 Khulisa Social Solutions. All Rights Reserved.
+             © 2026 Khulisa Social Solutions.
+             All Rights Reserved.
 
         </div>
 
-          <script>
+    </footer>
+
+ 
+  <script>
 
       function subscribeNewsletter() {
 
@@ -625,7 +634,6 @@
 
     </div>
 
-</footer>
 
 <script src="script.js"></script>
 
