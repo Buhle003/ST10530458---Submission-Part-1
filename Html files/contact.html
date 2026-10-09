@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -42,7 +45,7 @@
         <li><a href="impact.html">Our Impact</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="donate.html">Donate</a></li>
-        
+
     </nav>
 
     </nav>
@@ -59,25 +62,13 @@
     <div class="contact-hero-content">
 
         <h1 class="section-label">
-            GET IN TOUCH
+            Get In Touch
         </h1>
 
 
     <p>
         Together we can create positive change
     </p>
-
-    <p>
-
-    </p>
-
-</div>
-
-<div class="contact-hero-image">
-
-    <img
-        src="images/community1.jpg"
-        alt="Khulisa Social Community Initiative">
 
 </div>
 
@@ -173,7 +164,7 @@
             name@khulisa.org.za
         </p>
 
-        <a herf="mailto:name@khulisa.org.za">
+        <a href="mailto:name@khulisa.org.za">
             Send an email
         </a>
 
@@ -335,7 +326,7 @@
             </div>
 
 
-            <div class="form=group">
+            <div class="form-group">
 
                 <label for="phone">
                     Phone Number
@@ -418,7 +409,7 @@
                  name="message"
                  rows="7"
                  placeholder="Write youe message here..."
-                 reqired>
+                 required>
                 
                 </textarea>
 
@@ -560,7 +551,7 @@
         <!--Real Google Maps embed-->
 
         <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.1234567890123!2d28.04730531512345!3d-26.20410212345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950a1234567890%3A0xabcdef1234567890!2sKhulisa%20Social%20Solutions!5e0!3m2!1sen!2sza!4v1234567890123"
+                src="https://www.bing.com/maps/search?toWww=1&redig=391C507693164EF19F9F717B095F78D8&style=r&q=105+Oxford+Road%2C+Johannesburg%2C+2198%2C+South+Africa&st=105+Oxford+Road&sfa=Johannesburg%2C+2198%2C+South+Africa&FORM=QBMV&cp=-26.157930%7E28.046520&lvl=16"
                 width="100%"
                 height="450"
                 style="border:0;"
@@ -568,6 +559,8 @@
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
+
+            
                
     </div>
 
@@ -614,7 +607,7 @@
             <div class="faq-answer">
 
                 <p>
-                    Support our work by volunteering, donations, partnerships and partaking in community initiatives.
+                   Become a volunteer by filling in our contact form.
                 </p>
 
                 
@@ -682,7 +675,7 @@
             <div class="footer-logo">
 
                 <img
-                   src="images/khulisa-logo.png"
+                   src="/img/khulisa-logo.png"
                    alt="Khulisa Social Solutions">
 
 
@@ -727,16 +720,28 @@
 
                     <div class="social-icons">
 
-                        <a href="#">
+                        <a href="https://web.facebook.com/Khulisa/?_rdc=1&_rdr#"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Facebook">
                             <i class="fab fa-facebook"></i>
+                            <Text>KHULISA SOCIAL SOLUTIONS</Text>
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.instagram.com/khulisasa/"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
+                            <Text>khulisasa</Text>
                         </a>
 
-                        <a href="#">
+                        <a href="https://za.linkedin.com/company/khulisa-social-solutions"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
+                            <Text>Khulisa Social Solutions</Text>
                         </a>
 
                     </div>
@@ -825,7 +830,7 @@ function submitContactForm(event) {
 function toggleFAQ(button) {
 
     const answer = button.nextElementSibling;
-    const icon = querySelector("i");
+    const icon = button.querySelector("i");
 
 
     if (
@@ -866,7 +871,7 @@ function subscribeNewsletter() {
         "Thank you for subscribing to Khulisa Social Solutions!"
     );
 
-    document.getElementById("newsltterEmail").value = "";
+    document.getElementById("newsletterEmail").value = "";
 
 }
 
