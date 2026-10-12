@@ -31,6 +31,9 @@ Changelog:
 Removed events page to impact page.
 Fewer pictures on the home page.
 Removed dark mode button.
+- Was not given feedback from part 1.
+- Removed images from page headers.
+- Added images on different pages.
 
 References:
 • Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
