@@ -43,4 +43,16 @@ References:
 • Tristan, 2026. How Much Does a Website Cost in South Africa? [blog] 3 August. Available at: <https://dotdigital.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
 
 Images:
-Tablet: <img width="100" height="100" alt="Home page - tablet" src="/img/Home page - tablet.png" />
+Tablet: <img width="250" height="250" alt="Home page - tablet" src="/img/Home page - tablet.png" />
+        <img width="250" height="250" alt="Programmes page - tablet" src="/img/Programmes page - tablet.png" />
+        <img width="250" height="250" alt="Impact page - tablet" src="/img/Impact page - tablet.png" />
+        <img width="250" height="250" alt="About page - tablet" src="/img/About page - tablet.png" />
+        <img width="250" height="250" alt="Contact page - tablet" src="/img/Contact page - tablet.png" />
+        <img width="250" height="250" alt="Donate page - tablet" src="/img/Donate page - tablet.png" />
+
+Phone: <img width="250" height="250" alt="Home page - phone" src="/img/Home page - phone.png" />
+       <img width="250" height="250" alt="Programmes page - phone" src="/img/Programmes page - phone.png" />
+       <img width="250" height="250" alt="Impact page - phone" src="/img/Impact page - phone.png" />
+       <img width="250" height="250" alt="About page - phone" src="/img/About page - phone.png" />
+       <img width="250" height="250" alt="Contact page - phone" src="/img/Contact page - phone.png" />
+       <img width="250" height="250" alt="Donate page - phone" src="/img/Donate page - phone.png" />
