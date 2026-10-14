@@ -43,4 +43,4 @@ References:
 • Tristan, 2026. How Much Does a Website Cost in South Africa? [blog] 3 August. Available at: <https://dotdigital.co.za/website-cost-south-africa/> [Accessed 20 August 2026]
 
 Images:
-Tablet: <img width="600" height="700" alt="Home page - tablet" src="/img/Home page - tablet.png" />
+Tablet: <img width="100" height="100" alt="Home page - tablet" src="/img/Home page - tablet.png" />
