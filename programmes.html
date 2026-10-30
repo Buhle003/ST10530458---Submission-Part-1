@@ -5,9 +5,12 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="descriptoin" content="Explore Khulisa Social Solutions programmes supporting children, families, caregivers and communities through education and development.">
+    <meta name="keywords" content="Khulisa programmes, early childhood development, caregiver support, community programmes">
+
     <title>Programmes And Services | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -17,7 +20,8 @@
 
 <body>
 
-    <!--Naviagtion bar-->
+
+<!--Naviagtion bar-->
 
     <header class="navbar">
 
@@ -30,26 +34,41 @@
         </div>
 
         <nav class="navigation">
+
             <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="donate.html">Donate Now</a>
+            <a href="contact.html">Contact Us</a>
+            
         </nav>
 
-    </header>
 
+<!-- Website Search -->
 
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
-        ☰
-    </button>
+<section class="site-search-section">
 
-    <nav class="nav-menu" id="navMenu">
+    <form id="siteSearchForm" class="site-search-form" role="search">
 
-        <a href="impact.html">Our Impact</a>
-        <a href="about.html">About Us</a>
-        <a href="donate.html">Donate</a>
-        <a href="contact.html">Contact</a>
+        <div class="search-input-row">
 
-    </nav>
+            <input
+                type="search"
+                id="siteSearchInput"
+                placeholder="Search..."
+                aria-label="Search website"
+                required />
 
-    </nav>
+            <button type="submit">Search</button>
+
+        </div>
+
+    </form>
+
+     <div id="siteSearchResults" class="site-search-results" aria-live="polite">
+        </div>
+
+</section>
 
 </header>
 
@@ -60,7 +79,7 @@
 
     <div class="programmes-hero-content">
 
-        <h1 class="section-label">
+        <h1>
             Our Programmes And Services
         </h1>
 
@@ -107,15 +126,15 @@
             </div>
 
             <h2>
-                Group Therapy Session
+                Community Development
             </h2>
 
             <P>
-                Structed group activites for effective peer connection.
+                Structed group activites for effective community building.
             </P>
 
 
-            <a href="#contact" class="programme-button">
+            <a href="therapy.html" class="programme-button">
                 Learn More
             </a>
 
@@ -149,7 +168,7 @@
                 Commited to establishing a strong foundation for the future, Our Youth and Adult Programs embody an unwavering dedication. Innitiatives aimmed at fostering and supporting the development of young minds and individuals, reflecting our overaching goal.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="youth.html" class="programme-button">
                 Learn More
             </a>
 
@@ -184,7 +203,7 @@
                 A programme geared at ensuring individuals are prepared for their roles so that they feel confident and supported from day one.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="volunteer.html" class="programme-button">
                 Learn More
             </a>
 
@@ -218,7 +237,7 @@
                 We provide activities that encourage self-expression and cognitive stimulation to support social interactions tailored to one's abilities and interests, and a sense of beloning.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="create.html" class="programme-button">
                 Learn More
             </a>
 
@@ -252,7 +271,7 @@
                 We are passionate about laying a strong foundation for the future through our Early Childhood Development (ECD) services. Our commitment is reflected in a range of programs designed to nurture and support the holistic development of young minds.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="develop.html" class="programme-button">
                 Learn More
             </a>
 
@@ -279,14 +298,14 @@
             </div>
 
             <h2>
-                Early Childhood Development
+                Early Childhood Development (ECD)
             </h2>
 
             <p>
                 We are passionate about laying a strong foundation for the future through our Early Childhood Development (ECD) services. Our commitment is reflected in a range of programs designed to nurture and support the holistic development of young minds.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="ecd.html" class="programme-button">
                 Learn More
             </a>
 
@@ -320,7 +339,7 @@
                 Our primary and secondary programmes has been crafted to nuture holistic development through initiatives that provide support and care necessary to foster growth and sustability to young minds as well as curating strong foundations for their future.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="school.html" class="programme-button">
                 Learn More
             </a>
 
@@ -354,7 +373,7 @@
                 We are intent on creating a smooth and seamless transition back into society and assiting reclaiming a sense of normalcy and community for impacted individuals.
             </p>
 
-            <a href="#contact" class="programme-button">
+            <a href="rehab.html" class="programme-button">
                 Learn More
             </a>
 

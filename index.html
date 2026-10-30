@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Khulisa Social Solutions supports individuals and communities through programmes that promote development, opportunity and positive social change.">
+    <meta name="keywords" content="Khulisa Social Solutions, community development, social impact, South Africa">
+
     <title>Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -16,9 +19,10 @@
 
 <body>
 
-    <!--Naviagtion bar-->
 
-    <div class="navbar">
+<!--Naviagtion bar-->
+
+    <header class="navbar">
 
         <div class="logo">
             <div class="logo-icon">☀</div>
@@ -29,28 +33,44 @@
         </div>
 
         <nav class="navigation">
+
+            <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="impact.html">Our Impact</a>
             <a href="donate.html">Donate Now</a>
+            <a href="contact.html">Contact Us</a>
+            
         </nav>
 
-    </div>
 
+<!-- Website Search -->
 
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
-        ☰
-    </button>
+<section class="site-search-section">
 
-    <nav class="nav-menu" id="navMenu">
+    <form id="siteSearchForm" class="site-search-form" role="search">
 
-        <a href="programmes.html">Programmes</a>
-        <a href="impact.html">Our Impact</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-    
-    </nav>
+        <div class="search-input-row">
 
-</nav>
+            <input
+                type="search"
+                id="siteSearchInput"
+                placeholder="Search..."
+                aria-label="Search website"
+                required>
 
-</div>
+            <button type="submit">Search</button>
+
+        </div>
+
+    </form>
+
+    <div id="siteSearchResults" class="site-search-results"
+         aria-live="polite">
+        </div>
+
+    </section>
+
+</header>
 
 
     <!--Hero Section -->
@@ -83,14 +103,14 @@
 
         </section>
 
+
         <!-- Impact Section -->
 
-        <section id="impact" class="impact-section">
-
+      <section id="impact" class="impact-section">
 
             <div class="impact-heading">
 
-                <h2>
+                <h2 class="impact-section-heading">
                     Our Impact
                 </h2>
 
@@ -99,7 +119,7 @@
                 </p>
             </div>
 
-        <div class="impact-container">
+         <div class="impact-container">
 
             <!--Card 1 -->
             <div class="impact-card">
@@ -122,20 +142,24 @@
             </div>
 
             <!--Card 3 -->
+
             <div class="impact-card">
+
                 <h3>
                     15+
                 </h3>
+
                 <p>
                     YEARS OF SERVICE
                 </p>
-            </div>
 
             </div>
 
-        </div>
+            </div>
 
-    </section>
+         </div>
+
+      </section>
 
         <!--Communities Initiatives Section-->
         <section class="community-section">
@@ -249,7 +273,7 @@
             <!--Right side: Image-->
             <div class="join-image">
                 
-                <img src="img/join our mission.jpg" alt="Join Our Mission" width="800">
+                <img src="/img/join our mission.jpg" alt="Join Our Mission" width="800">
 
             </div>
 

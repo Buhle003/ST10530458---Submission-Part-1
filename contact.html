@@ -5,9 +5,12 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Contact Khulisa Social Solutions to learn about our programmes, partnerships, community initiatives and ways to get involved.">
+    <meta name="keywords" content="contact Khulisa Social Solutions, community partnerships, programme enquiries">
+
     <title>Contact | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -16,7 +19,8 @@
 
 <body>
 
-    <!--Naviagtion bar-->
+
+<!--Naviagtion bar-->
 
     <header class="navbar">
 
@@ -29,54 +33,66 @@
         </div>
 
         <nav class="navigation">
+
             <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="about.html">About Us</a>
+            <a href="donate.html">Donate</a>
+            
         </nav>
 
-    </header>
 
+<!-- Website Search -->
 
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
-        ☰
-    </button>
+<section class="site-search-section">
 
-    <nav class="nav-menu" id="navMenu">
+    <form id="siteSearchForm" class="site-search-form" role="search">
 
-        <li><a href="programmes.html">Programmes</a></li>
-        <li><a href="impact.html">Our Impact</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="donate.html">Donate</a></li>
+        <div class="search-input-row">
 
-    </nav>
+            <input
+                type="search"
+                id="siteSearchInput"
+                placeholder="Search..."
+                aria-label="Search website"
+                required>
 
-    </nav>
+            <button type="submit">Search</button>
+
+        </div>
+
+    </form>
+
+    <div id="siteSearchResults" class="site-search-results"
+         aria-live="polite">
+        </div>
+
+</section>
 
 </header>
 
 
-
 <!--Contact Hero -->
-
 
 <section class="contact-hero">
 
     <div class="contact-hero-content">
 
-        <h1 class="section-label">
+        <h1>
             Get In Touch
         </h1>
 
-
-    <p>
+     <p>
         Together we can create positive change
-    </p>
+     </p>
 
-</div>
+    </div>
 
 </section>
 
 
 <!--Contact Information -->
-
 
 <section class="contact-information">
 
@@ -146,6 +162,7 @@
 
     </div>
 
+
     <!--Email-->
 
     <div class="contact-info-card">
@@ -198,9 +215,7 @@
 </section>
 
 
-
 <!--Contact Form -->
-
 
 <section class="contact-form-section">
 
@@ -238,7 +253,6 @@
 
                 </div>
 
-
                 <div>
 
                     <i class="fas fa-phone"></i>
@@ -254,16 +268,14 @@
         </div>
 
 
-
-
         <!--Form -->
 
         <div class="contact-form-wrapper">
 
 
             <form id="contactForm"
-                  onsubmit="submitContactForm(event)">
-                
+                  onsubmit="submitContactForm(event)"
+                  novalidate>
                 
                 
             <!--Name -->
@@ -303,10 +315,10 @@
 
                 </div>
 
-
             </div>
 
-            <!-- Email-->
+
+    <!-- Email-->
 
         <div class="form-row">
 
@@ -325,7 +337,6 @@
 
             </div>
 
-
             <div class="form-group">
 
                 <label for="phone">
@@ -336,7 +347,8 @@
                     type="tel"
                     id="phone"
                     name="phone"
-                    placeholder="+27 ...">
+                    placeholder="+27 ..."
+                    required>
 
             </div>
 
@@ -394,7 +406,6 @@
         </div>
 
 
-
         <!--Message -->
 
 
@@ -409,16 +420,14 @@
                  name="message"
                  rows="7"
                  placeholder="Write youe message here..."
-                 required>
+                 >
                 
                 </textarea>
-
 
         </div>
 
 
         <!--Consent -->
-
 
         <div class="checkbox-group">
 
@@ -434,7 +443,6 @@
                 </label>
 
         </div>
-
 
 
         <!--Submit -->
@@ -463,9 +471,7 @@
 </section>
 
 
-
 <!--Social Media -->
-
 
 <section class="social-section">
 
@@ -486,20 +492,29 @@
 
     <div class="large-social-icons">
 
-        <a href="#" aria-label="Facebook">
-            <i class="fab fa-facebook"></i>
-            <span>Facebook</span>
-        </a>
+         <a href="https://web.facebook.com/Khulisa/?_rdc=1&_rdr#"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <span>FaceBook</span>
+                        </a>
 
-         <a href="#" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-            <span>Instagram</span>
-        </a>
+            <a href="https://www.instagram.com/khulisasa/"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
 
-         <a href="#" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-            <span>LinkedIn</span>
-        </a>
+        <a href="https://za.linkedin.com/company/khulisa-social-solutions"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
 
     </div>
 
@@ -550,17 +565,7 @@
 
         <!--Real Google Maps embed-->
 
-        <iframe
-                src="https://www.bing.com/maps/search?toWww=1&redig=391C507693164EF19F9F717B095F78D8&style=r&q=105+Oxford+Road%2C+Johannesburg%2C+2198%2C+South+Africa&st=105+Oxford+Road&sfa=Johannesburg%2C+2198%2C+South+Africa&FORM=QBMV&cp=-26.157930%7E28.046520&lvl=16"
-                width="100%"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-
-            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.188531567855!2d28.043531875197182!3d-26.15798877710502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950cf2d52dc72b%3A0xd114853d680a87fa!2sKhulisa%20Social%20Solutions!5e0!3m2!1sen!2sza!4v1793010482870!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                
     </div>
 
@@ -784,13 +789,12 @@
     </footer>
 
 
-
     <!--JavaScript-->
 
 
-    <script>
+    <script src="script.js">
 
-/* Contact form */$
+/* Contact form */
 
 function submitContactForm(event) {
     event.preventDefault();
@@ -798,22 +802,21 @@ function submitContactForm(event) {
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const subject = document.getElementById("subject").value;
+    const phone = document.getElementById("phone").value;
     const message = document.getElementById("message").value;
-    
 
-    if(
+    if (
         name === "" ||
         email === "" ||
         subject === "" ||
+        phone === ""||
         message === ""
     ) {
-        
         alert(
             "Please fill in all required fields."
         );
 
         return;
-
     }
      
     alert(
@@ -824,60 +827,7 @@ function submitContactForm(event) {
 
 }
 
-/* FAQ */
-
-
-function toggleFAQ(button) {
-
-    const answer = button.nextElementSibling;
-    const icon = button.querySelector("i");
-
-
-    if (
-        answer.style.display === "block"
-    ) {
-        answer.style.display = "none";
-        icon.classList.remove("fa-minus");
-        icon.classList.add("fa-plus");
-
-    }
-
-    else {
-        answer.style.display = "block";
-        icon.classList.remove("fa-plus");
-        icon.classList.add("fa-minus");
-
-    }
-}
-
-/* Newsletter */
-
-function subscribeNewsletter() {
-
-    const email = document.getElementById("newsletterEmail").value;
-
-
-    if (email === "") {
-
-        alert(
-            "Enter your email address."
-        );
-
-        return;
-
-    }
-
-    alert(
-        "Thank you for subscribing to Khulisa Social Solutions!"
-    );
-
-    document.getElementById("newsletterEmail").value = "";
-
-}
-
 </script>
-
-<script src="script.js"></script>
 
 </body>
 

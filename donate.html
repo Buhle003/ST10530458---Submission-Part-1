@@ -5,9 +5,12 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Support Khulisa Social Solutions and help expand community programmes that create opportunities for children, families and communities.">
+    <meta name="keywords" content="donate to Khulisa, support communities, nonprofit donations, community development">
+
     <title>Donate | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -16,7 +19,8 @@
 
 <body>
 
-    <!--Naviagtion bar-->
+
+<!--Naviagtion bar-->
 
     <header class="navbar">
 
@@ -29,26 +33,44 @@
         </div>
 
         <nav class="navigation">
+
             <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            
         </nav>
 
-    </header>
 
+<!-- Website Search -->
 
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
-        ☰
-    </button>
+<section class="site-search-section">
 
-    <nav class="nav-menu" id="navMenu">
+    <form id="siteSearchForm" class="site-search-form" role="search">
 
-        <li><a href="programmes.html">Programmes</a></li>
-        <li><a href="impact.html">Our Impact</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <div class="search-input-row">
 
-    </nav>
+            <input
+                type="search"
+                id="siteSearchInput"
+                placeholder="Search..."
+                aria-label="Search website"
+                required>
 
-    </nav>
+            <button type="submit">Search</button>
+
+        </div>
+
+    </form>
+
+    <div id="siteSearchResults" class="site-search-results"
+         aria-live="polite">
+        </div>
+
+    </section>
+
+</header>
 
 
 <!--Donate hero-->
@@ -414,7 +436,7 @@
     </footer>
 
 
-    <script>
+<script>
 
       function subscribeNewsletter() {
 
@@ -434,9 +456,10 @@
 
       }
 
-    </script>
+</script>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+<script src="donate.js"></script>
 
 </body>
 
