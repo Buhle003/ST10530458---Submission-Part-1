@@ -566,6 +566,7 @@ color: #246b9b;
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
+    margin-bottom: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: 0.3s ease;
 }
@@ -607,14 +608,14 @@ color: #246b9b;
     font-style: italic;
 }
 
-.learn-more {
+.programme-button {
     margin-top: 10px;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
-.learn-more:hover {
-    background-color: #246b45;
+.programme-button:hover {
+    color: #f28c28;
 }
 
 
@@ -687,6 +688,125 @@ color: #246b9b;
     border-bottom: 5px solid (orange);
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
     transform: 0.3s ease;
+}
+
+
+/* Programme detsils page */
+
+.programme-details-hero {
+    background-color: rgba(121, 183, 235, 0.92);
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.programme-details-hero .section-label {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.programme-details-hero h1 {
+    color: #17324d;
+    font-size: clamp(30px, 4vw, 46px);
+    margin: 15px 0;
+}
+
+.programme-details-hero > p:not(.section-label) {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: #444;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Back button */
+
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 22px;
+    background-color: #2e8b57;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #176b45;
+}
+
+/* Programme cards layout */
+
+.programme-details-container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 45px 5%;
+}
+
+/* Individual cards */
+
+.programme-details-card {
+    background-color: #ffffff;
+    padding: clamp(25px, 4vw, 55px);
+    border-left: 2px solid #2e8b57;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+    min-width: 0;
+}
+
+.programme-details-card h2 {
+    color: #111111;
+    font-size: clamp(22px, 2vw, 30px);
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.programme-details-card p {
+    color: #111111;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.programme-details-card h3 {
+    color: #176b45;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.programme-details-card ul {
+    padding-left: 22px;
+    margin-bottom: 25px;
+}
+
+.programme-details-card li {
+    color: #111111;
+    line-height: 1.8;
+    margin-bottom: 7px;
+}
+
+
+/* Contact button */
+
+.programme-contact-button {
+    display: inline-block;
+    padding: 12px 10px;
+    text-align: center;
+    background-color: #e67e22;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.programme-contact-button:hover {
+    background-color: #c96716;
 }
 
 
@@ -1856,10 +1976,194 @@ benefit h3 {
     outline: 2px solid rgba(214, 40, 40, 0.2);
 }
 
+
 /* Consent checkbox error */
 
 .checkbox-group .error-message {
     flex-basis: 100%;
+}
+
+
+/* Enquiry Page */
+
+.enquiry-hero {
+    min-height: 300px;
+    padding: 65px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(121, 183, 235, 0.92);
+    background-size: cover;
+    background-position: center;
+}
+
+.enquiry-hero-content {
+    max-width: 800px;
+}
+
+.enquiry-hero-content h1 {
+    font-size: clamp(32px, 5vw, 50px);
+    margin: 15px 0;
+}
+
+.enquiry-hero-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Form section */
+
+.enquiry-section {
+    padding: 80px 7%;
+    background-color: #f4f8f4;
+}
+
+.enquiry-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: start;
+}
+
+.enquiry-intro h2 {
+    color: #17324d;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.enquiry-intro p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.back-contact {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2e8b57;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Form box */
+
+.enquiry-form-wrapper {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+.enquiry-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.enquiry-form-group {
+    margin-bottom: 20px;
+}
+
+.enquiry-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #17324d;
+    font-weight: bold;
+}
+
+.enquiry-form-group input,
+.enquiry-form-group select,
+.enquiry-form-group textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background: white;
+}
+
+.enquiry-form-group input:focus,
+.enquiry-form-group select:focus,
+.enquiry-form-group textarea:focus {
+    outline: 2px solid #2e8b57;
+    border-color: #2e8b57;
+}
+
+.enquiry-form-group textarea {
+    resize: vertical;
+}
+
+/* Consent */
+
+.enquiry-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.enquiry-checkbox input {
+    margin-top: 5px;
+    accent-color: #2e8b57;
+}
+
+.enquiry-checkbox label {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Submit */
+
+.enquiry-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enquiry-submit:hover {
+    background-color: #c96716;
+}
+
+.required-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Feedback */
+
+#enquiryFeedback {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#enquiryFeedback.error {
+    color: #c62828;
+}
+
+#enquiryFeedback.success {
+    color: #176b45;
+}
+
+.enquiry-form-group .input-error,
+.enquiry-checkbox .input-error {
+    border: 2px solid #c62828;
+}
+
+.field-error {
+    font-size: 13px;
 }
 
 
