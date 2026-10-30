@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="description" content="Explore Khulisa Social Solutions programmes supporting children, families, caregivers and communities through education and development.">
+    <meta name="keywords" content="about Khulisa Social Solutions, nonprofit organisation, community support, social development">
+
     <title>About Us | Khulisa Social Solutions</title>
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -14,7 +19,8 @@
 
 <body>
 
-    <!--Naviagtion bar-->
+
+   <!--Naviagtion bar-->
 
     <header class="navbar">
 
@@ -27,29 +33,45 @@
         </div>
 
         <nav class="navigation">
+
             <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="donate.html">Donate Now</a>
+            <a href="contact.html">Contact Us</a>
+            
         </nav>
 
-    </header>
 
+<!-- Website Search -->
 
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
-        ☰
-    </button>
+<section class="site-search-section">
 
-    <nav class="nav-menu" id="navMenu">
+    <form id="siteSearchForm" class="site-search-form" role="search">
 
-        <a href="programmes.html">Programmes</a>
-        <a href="impact.html">Our Impact</a>
-        <a href="donate.html">Donate</a>
-        <a href="contact.html">Contact</a>
+        <div class="search-input-row">
 
-    </nav>
+            <input
+                type="search"
+                id="siteSearchInput"
+                placeholder="Search..."
+                aria-label="Search website"
+                required>
 
-    </nav>
+            <button type="submit">Search</button>
 
+        </div>
 
-    </header>
+    </form>
+
+    <div id="siteSearchResults" class="site-search-results"
+         aria-live="polite">
+        </div>
+
+ </section>
+
+</header>
+
 
     <!--About Hero-->
 
@@ -57,13 +79,13 @@
 
         <div class="about-hero-content">
 
-            <h2 class="section-label">
+            <h2>
                 About Us
             </h2>
 
-            <h4 class="small heading">
+            <h3>
                 Changing Lives Through Every Opportunity.
-            </h4>
+            </h3>
 
             <p>
                 Khulisa Social Solutions is an organisation dedicated to creating opportunities for positive and sustainable changes in the lives of individuals by working along side them and communities and supporting people to reach their full potential.
@@ -80,7 +102,7 @@
         <div class="about-intro-image">
 
             <img 
-                src="images/community2.jpg" 
+                src="/img/" 
                 alt="Community Image">
 
         </div>
@@ -92,10 +114,7 @@
             </h3>
 
             <p>
-                Working together to build 
-                <span>
-                    stronger communities
-                </span>
+                Working together to build stronger communities.
             </p>
 
             <p>
@@ -163,8 +182,7 @@
 
 
             <h2>
-                Our Core 
-                <span>Values</span>
+                Our Core Values
             </h2>
 
             <p>
@@ -248,7 +266,7 @@
         <div class="approach-image">
 
             <img
-                 src="images/community3.jpg"
+                 src="/img/approach.jpg"
                  alt="example image">
 
         </div>
@@ -267,9 +285,11 @@
             <p>
               Supporting people where they live by bridging the gap between resource availability and individual backgrounds.
             </p>
+
         </div>
 
     </section>
+
 
     <!--Join Our Mission-->
 
@@ -297,7 +317,7 @@
         <div class="about-join-image">
 
             <img
-                src="img/join our mission 2.jpg"
+                src="/img/join our mission 2.jpg"
                 alt="image">
         
         </div>
