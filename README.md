@@ -37,6 +37,8 @@ Removed dark mode button.
 - Moved group therapy to community development.
 - Created htmls for each programme.
 - Added pictures to the hero of each page.
+- Was struggling with making sure the screen translated to smaller screens but was able to make it work.
+- Added html pages for each programme.
 
 References:
 • Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
