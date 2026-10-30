@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Khulisa Social Solutions</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--Naviagtion bar-->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <div class="logo-icon">☀</div>
+            <div class="logo-text">
+                <strong>Khulisa Social Solutions</strong>
+
+            </div>
+        </div>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+        </nav>
+
+    </header>
+
+
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open navigation menu">
+        ☰
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+
+    </nav>
+
+    </nav>
+
+</header>
+
+
+
+<!--Contact Hero -->
+
+
+<section class="contact-hero">
+
+    <div class="contact-hero-content">
+
+        <h1 class="section-label">
+            Get In Touch
+        </h1>
+
+
+    <p>
+        Together we can create positive change
+    </p>
+
+</div>
+
+</section>
+
+
+<!--Contact Information -->
+
+
+<section class="contact-information">
+
+
+    <div class="contact-heading">
+
+        <p class="section-label">
+            CONTACT INFORMATION
+        </p>
+
+        <p>
+            Get in touch with the Khulisa Social Solutions team using any of the contact methods below.
+        </p>
+
+    </div>
+
+
+    <div class="contact-info-grid">
+
+        <!--Address -->
+
+        <div class="contact-info-card">
+
+            <div class="contact-icon">
+
+                <i class="fas fa-location-dot"></i>
+
+            </div>
+
+            <h3>
+                Visit Us
+            </h3>
+
+            <P>
+                        105 Oxford Road
+                    <br>
+                        Johannesburg
+                       <br> 
+                        South Africa
+                    </p>
+
+        </div>
+
+
+    <!--Phone -->
+
+    <div class="contact-info-card">
+
+        <div class="contact-icon">
+
+            <i class="fas fa-phone"></i>
+
+        </div>
+
+        <h3>
+            Call Us
+        </h3>
+
+        <p>
+             011 788 8237
+        </p>
+
+        <a href="tel:+27117888237">
+            Call Khulisa
+        </a>
+
+
+    </div>
+
+    <!--Email-->
+
+    <div class="contact-info-card">
+
+        <div class="contact-icon">
+
+            <i class="fas fa-envelope"></i>
+
+        </div>
+
+        <h3>
+            Email Us
+        </h3>
+
+        <p>
+            name@khulisa.org.za
+        </p>
+
+        <a href="mailto:name@khulisa.org.za">
+            Send an email
+        </a>
+
+
+    </div>
+
+    <!--Office Hours -->
+
+    <div class="contact-info-card">
+
+        <div class="contact-icon">
+
+            <i class="fas fa-clock"></i>
+
+        </div>
+
+        <h3>
+            Office Hours
+        </h3>
+
+        <p>
+            Monday - Friday
+            <br>
+            08:00 - 16:00
+        </p>
+
+    </div>
+
+ </div>
+
+</section>
+
+
+
+<!--Contact Form -->
+
+
+<section class="contact-form-section">
+
+    <div class="contact-form-container">
+
+
+
+        <!-- Left Side -->
+
+        <div class="contact-form-intro">
+
+            <strong class="section-label">
+                Send Us A Message
+            </strong>
+
+            <p>
+                Have a question about our programmes? Interested in volunteering or partnering with us?
+            </p>
+
+            <p>
+                Complete the form and a member of our team will back to you.
+            </p>
+
+
+            <div class="form-contact-details">
+
+
+                <div>
+
+                    <i class="fas fa-envelope"></i>
+
+                    <span>
+                        name@khulisa.org.za
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fas fa-phone"></i>
+
+                    <span>
+                         011 788 8237
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!--Form -->
+
+        <div class="contact-form-wrapper">
+
+
+            <form id="contactForm"
+                  onsubmit="submitContactForm(event)">
+                
+                
+                
+            <!--Name -->
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="surname">
+                        Surname
+                    </label>
+
+                    <input
+                        type="text"
+                        id="surname"
+                        name="surname"
+                        placeholder="Enter your surname"
+                        required>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Email-->
+
+        <div class="form-row">
+
+            <div class="form-group">
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input 
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+27 ...">
+
+            </div>
+
+
+        </div>
+
+
+        <!--Subject -->
+
+
+        <div class="form-group">
+
+            <label for="subject">
+                What can we help you with?
+            </label>
+
+            <select
+                 id="subject"
+                 name="subject"
+                 required>
+                
+                
+                <option value="">
+                    Select an option
+                </option>
+
+                 <option value="general">
+                    General Enquiry
+                </option>
+
+                 <option value="volunteer">
+                    Volunteer Opportunities
+                </option>
+
+                 <option value="programme">
+                    Programme Information
+                </option>
+
+                 <option value="partnership">
+                    Partnership
+                </option>
+
+                 <option value="donation">
+                   Donations
+                </option>
+
+                 <option value="media">
+                    Media Enquiry
+                </option>
+
+            
+            </select>
+
+
+        </div>
+
+
+
+        <!--Message -->
+
+
+        <div class="form-group">
+
+            <label for="message">
+                Message
+            </label>
+
+            <textarea
+                 id="message"
+                 name="message"
+                 rows="7"
+                 placeholder="Write youe message here..."
+                 required>
+                
+                </textarea>
+
+
+        </div>
+
+
+        <!--Consent -->
+
+
+        <div class="checkbox-group">
+
+
+            <input
+                type="checkbox"
+                id="consent"
+                required>
+
+                <label for="consent">
+                    I agree to Khulisa Social Solutions using my information to respond to my enquiry.
+
+                </label>
+
+        </div>
+
+
+
+        <!--Submit -->
+
+        <button
+              type="submit"
+              class="contact-submit">
+            
+            
+                Send Message
+
+                <i class="fas fa-arrow-right"></i>
+
+            
+            </button>
+
+                
+                </form>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!--Social Media -->
+
+
+<section class="social-section">
+
+    <p class="section-label">
+        FOLLOW OUR JOURNEY
+    </p>
+
+    <h2>
+        Connect with us online
+    </h2>
+
+    <p>
+        Follow Khulisa Social Solutions to stay
+        informed about our latest programmes,
+        events and community initiatives.
+    </p>
+
+
+    <div class="large-social-icons">
+
+        <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+            <span>Facebook</span>
+        </a>
+
+         <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+
+         <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!--Map-->
+
+
+<section class="location-section">
+
+    <div class="location-content">
+
+        <p class="section-label">
+            FIND US
+        </p>
+
+        <strong>Visit our office.</strong>
+
+        <p>
+             Our office is located in Johannesburg,
+            South Africa. We welcome community
+            members, volunteers and partners.
+        </p>
+
+        <p class="address">
+
+            <strong>
+                Khulisa Social Solutions
+            </strong>
+
+            <br>
+                105 Oxford Road
+
+            <br>
+                Johannesburg
+            
+            <br>
+                South Africa
+
+        </p>
+
+    </div>
+
+
+    <div class="map-container">
+
+        <!--Real Google Maps embed-->
+
+        <iframe
+                src="https://www.bing.com/maps/search?toWww=1&redig=391C507693164EF19F9F717B095F78D8&style=r&q=105+Oxford+Road%2C+Johannesburg%2C+2198%2C+South+Africa&st=105+Oxford+Road&sfa=Johannesburg%2C+2198%2C+South+Africa&FORM=QBMV&cp=-26.157930%7E28.046520&lvl=16"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            
+               
+    </div>
+
+
+</section>
+
+
+<!--FAQ -->
+
+
+<section class="faq-section">
+
+
+
+    <div class="faq-heading">
+
+        <h2 class="section-label">
+            FAQ
+        </h2>
+
+        <p>
+            Frequently asked questions.
+        </p>
+
+    </div>
+
+
+    <div class="faq-container">
+
+
+        <div class="faq-item">
+
+            <button
+                 class="faq-question"
+                 onclick="toggleFAQ(this)">
+                
+                How can I be a volunteer?
+
+                <i class="fas fa-plus"></i>
+                
+                </button>
+
+
+            <div class="faq-answer">
+
+                <p>
+                   Become a volunteer by filling in our contact form.
+                </p>
+
+                
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <button
+                 class="faq-question"
+                 onclick="toggleFAQ(this)">
+
+                 Where does Khulisa operate?
+
+                 <i class="fas fa-plus"></i>
+                
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Khulisa Social Solutions operates in Johannesburg, South Africa. We are committed to creating positive change in our local communities.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <!--Newsletter-->
+
+        <div class="newsletter">
+
+            <div class="newsletter-text">
+                STAY INFORMED ON SOCIAL PROGRESS
+            </div>
+
+            <div class="newsletter-form">
+
+                <input
+                     type="email"
+                     placeholder="Email"
+                     id="newsletterEmail">
+                
+                <button onclick="subscribeNewsletter()">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+
+        <!--Footer Main-->
+
+        <div class="footer-main">
+
+            <div class="footer-logo">
+
+                <img
+                   src="/img/khulisa-logo.png"
+                   alt="Khulisa Social Solutions">
+
+
+            </div>
+
+
+            <div class="footer-grid">
+
+                <!--Contact-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <P>
+                        105 Oxford Road
+                    </P>
+
+                    <p>
+                        Johannesburg, South Africa
+                    </p>
+
+                    <p>
+                        name@Khulisa.org.za
+                    </p>
+
+                    <p>
+                        011 788 8237
+                    </p>
+
+                </div>
+
+                <!--Social-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        SOCIALS
+                    </h3>
+
+                    <div class="social-icons">
+
+                        <a href="https://web.facebook.com/Khulisa/?_rdc=1&_rdr#"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                            <Text>KHULISA SOCIAL SOLUTIONS</Text>
+                        </a>
+
+                        <a href="https://www.instagram.com/khulisasa/"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <Text>khulisasa</Text>
+                        </a>
+
+                        <a href="https://za.linkedin.com/company/khulisa-social-solutions"
+                           target="blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                            <Text>Khulisa Social Solutions</Text>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!--Legal-->
+
+                <div class="footer-column">
+
+                    <h3>
+                        LEGAL
+                    </h3>
+
+                    <p>
+                        © 2026 Khulisa Social Solutions.
+                    </p>
+
+                    <p>
+                        All Rights Reserved.
+                    </p>
+
+                    <p>
+                        Non-Profit Organisation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+             © 2026 Khulisa Social Solutions.
+             All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+
+    <!--JavaScript-->
+
+
+    <script>
+
+/* Contact form */$
+
+function submitContactForm(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+    
+
+    if(
+        name === "" ||
+        email === "" ||
+        subject === "" ||
+        message === ""
+    ) {
+        
+        alert(
+            "Please fill in all required fields."
+        );
+
+        return;
+
+    }
+     
+    alert(
+        "Thank you for contacting Khulisa Social Solutions. We will get back to you shortly."
+    );
+
+    document.getElementById("contactForm").reset();
+
+}
+
+/* FAQ */
+
+
+function toggleFAQ(button) {
+
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector("i");
+
+
+    if (
+        answer.style.display === "block"
+    ) {
+        answer.style.display = "none";
+        icon.classList.remove("fa-minus");
+        icon.classList.add("fa-plus");
+
+    }
+
+    else {
+        answer.style.display = "block";
+        icon.classList.remove("fa-plus");
+        icon.classList.add("fa-minus");
+
+    }
+}
+
+/* Newsletter */
+
+function subscribeNewsletter() {
+
+    const email = document.getElementById("newsletterEmail").value;
+
+
+    if (email === "") {
+
+        alert(
+            "Enter your email address."
+        );
+
+        return;
+
+    }
+
+    alert(
+        "Thank you for subscribing to Khulisa Social Solutions!"
+    );
+
+    document.getElementById("newsletterEmail").value = "";
+
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
