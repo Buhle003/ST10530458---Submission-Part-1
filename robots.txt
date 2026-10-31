@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ST10530458---SUBMISSION-PART-1-URL/siemap.xml
