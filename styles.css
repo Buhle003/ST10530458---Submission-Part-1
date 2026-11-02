@@ -185,16 +185,10 @@ section {
     padding: 60px 20px;
 }
 
-
-/* Hero content */
-
 .hero-content {
     max-width: 1200px;
     width: 100%;
 }
-
-
-/* Main heading */
 
 .hero h1 {
     color: white;
@@ -206,14 +200,16 @@ section {
     margin-bottom: 35px;
 }
 
-
-/* Hero description */
-
 .hero p {
     color: white;
     font-size: clamp(18px, 2vw, 27px);
     line-height: 1.4;
     margin-bottom: 70px;
+}
+
+.home-heading h2 {
+    color: #176b45;
+    margin-bottom: 20px;
 }
 
 
@@ -527,8 +523,8 @@ color: #246b9b;
     margin-bottom: 20px;
 }
 
-.programmes-hero p {
-    font-size: 18px;
+.programmes-hero strong {
+    font-size: clamp(18px, 2vw, 27px);
     color: white;
     max-width: 750px;
     margin: 0 auto;
@@ -546,7 +542,7 @@ color: #246b9b;
 }
 
 .programmes-intro p {
-    color: #555555;
+    color: black;
 }
 
 
@@ -691,7 +687,7 @@ color: #246b9b;
 }
 
 
-/* Programme detsils page */
+/* Programme details page */
 
 .programme-details-hero {
     background-color: rgba(121, 183, 235, 0.92);
@@ -724,9 +720,10 @@ color: #246b9b;
 /* Back button */
 
 .back-button {
-    display: inline-block;
-    margin-top: 10px;
+    display: left;
+    margin-bottom: 50px;
     padding: 12px 22px;
+    max-width: 210px;
     background-color: #2e8b57;
     color: white;
     border-radius: 5px;
@@ -750,12 +747,17 @@ color: #246b9b;
     padding: 45px 5%;
 }
 
+.section-heading {
+    text-align: center;
+}
+
 /* Individual cards */
 
 .programme-details-card {
     background-color: #ffffff;
     padding: clamp(25px, 4vw, 55px);
-    border-left: 2px solid #2e8b57;
+    border-left: 5px solid #2e8b57;
+    border-radius: 5px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
     min-width: 0;
 }
@@ -791,10 +793,36 @@ color: #246b9b;
     margin-bottom: 7px;
 }
 
+.programme-contact-button-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 36px;
+}
+
+.programme-contact-button {
+    align-items: left;
+    background-color: #e67e22;
+    color: white;
+    min-width: 16px;
+    min-height: 36px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.programme-contact-button:hover {
+    background-color: #c96512;
+    transform: translateY(-3px);
+}
+
 
 /* Contact button */
 
-.programme-contact-button {
+.cta-button {
     display: inline-block;
     padding: 12px 10px;
     text-align: center;
@@ -803,9 +831,10 @@ color: #246b9b;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 18px;
 }
 
-.programme-contact-button:hover {
+.cta-button:hover {
     background-color: #c96716;
 }
 
@@ -827,8 +856,32 @@ color: #246b9b;
     color: white;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(48px, 6vw, 82px);
     font-style: italic;
     margin-bottom: 35px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading h2 {
+    color:#176b45;
+    text-align: center;
+}
+
+.heading p:first-of-type {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading >p:not(:first-of-type) {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 18px;
 }
 
 .impact-hero-image {
@@ -838,6 +891,7 @@ color: #246b9b;
 .impact-hero-content p {
     color: white;
     text-align: center;
+    font-size: clamp(18px, 2vw, 27px);
 }
 
 .impact-intro {
@@ -847,10 +901,10 @@ color: #246b9b;
     text-align: center;
 }
 
-.impact-intro h2,
 .reports h2 {
     color: #176b45;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .reports {
@@ -864,11 +918,12 @@ color: #246b9b;
 }
 
 .report-container {
-    display: row;
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px
+    gap: 20px;
 }
 
 .report-card {
@@ -899,30 +954,366 @@ color: #246b9b;
 }
 
 
-/* Donate section */
+/* Press releases */
 
-.donate-section {
-    min-height: 400px;
-    padding: 100px 10%;
+.press-hero {
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    background-color: #eef7fd;
-}
+    padding: 70px 20px;
+    background: linear-gradient(
+        rgba(23, 50, 77, 0.75),
+        rgba(23, 50, 77, 0.75)
+    ),
+    url("../images/contact-hero.jpg");
 
-.donate-section {
-    margin-top: 30px;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 8px;
-    background-color: #2879b8;
+    background-size: cover;
+    background-position: center;
     color: white;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s ease;
 }
 
-.donate-button:hover {
-    background-color: #1e5d8e;
-    transform: translateY(-2px);
+.press-hero-content {
+    max-width: 800px;
+}
+
+.press-hero-content span {
+    color: #f28c28;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.press-hero h1 {
+    font-size: 46px;
+    margin: 15px 0;
+}
+
+.press-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* INTRODUCTION */
+
+.press-intro {
+    text-align: center;
+    padding: 60px 20px 35px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.press-intro h2,
+.press-heading h2 {
+    color: #2e8b57;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.press-intro p,
+.press-heading p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* PRESS RELEASE SECTION */
+
+.press-section {
+    background: #f4f8f4;
+    padding: 60px 7%;
+}
+
+.press-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.press-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* PRESS CARDS */
+
+.press-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    border-bottom: 4px solid #2e8b57;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.press-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.press-card-content {
+    padding: 30px;
+}
+
+.press-category {
+    display: inline-block;
+    background: #eaf5ed;
+    color: #2e8b57;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.press-date {
+    color: #777;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.press-card h3 {
+    color: #17324d;
+    font-size: 21px;
+    line-height: 1.4;
+    margin: 12px 0;
+}
+
+.press-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.press-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2e8b57;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.press-card a:hover {
+    color: #f28c28;
+}
+
+/* SOURCE CREDIT */
+
+.press-source {
+    text-align: center;
+    margin: 40px auto 0;
+    color: #555;
+    line-height: 1.7;
+}
+
+.press-source a {
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+/* CALL TO ACTION */
+
+.press-cta {
+    background: #17324d;
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.press-cta h2 {
+    font-size: 30px;
+}
+
+.press-cta p {
+    max-width: 650px;
+    margin: 15px auto 25px;
+    line-height: 1.7;
+}
+
+.press-button {
+    display: inline-block;
+    background: #f28c28;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.press-button:hover {
+    background: #e67e22;
+}
+
+.article-hero {
+    background: #17324d;
+    color: white;
+    text-align: center;
+    padding: 85px 20px;
+}
+
+.article-hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.article-hero span {
+    color: #f28c28;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.article-hero h1 {
+    font-size: 38px;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+
+.article-hero p {
+    color: #eeeeee;
+}
+
+.article-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.back-link {
+    display: inline-block;
+    color: #2e8b57;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.back-link:hover {
+    color: #f28c28;
+}
+
+.press-article {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+
+.press-article h2 {
+    color: #2e8b57;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.press-article p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.gallery-box {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* Gallery section */
+
+.gallery-section {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #f7fbff;
+}
+
+.gallery-heading h2 {
+    color: #2e8b57;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.gallery-heading p {
+    color: #555;
+    margin-bottom: 35px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.08);
+}
+
+
+/* Lightbox */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.92);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 85%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.lightbox-close {
+    top: 50px;
+    right: 30px;
+    font-size: 45px;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+.lightbox button:hover {
+    color: #f28c28;
 }
 
 
@@ -949,7 +1340,7 @@ color: #246b9b;
 
 .donate-hero p {
     color: white;
-    font-size: 22px;
+    font-size: clamp(18px, 2vw, 27px);
     line-height: 1.6;
     max-width: 750px;
     margin: auto;
@@ -957,11 +1348,6 @@ color: #246b9b;
 
 
 /* Donation section */
-
-.donation-section {
-    background-color: #f7f7f7;
-    padding: 80px 8%;
-}
 
 .donation-container {
     max-width: 1200px;
@@ -1008,7 +1394,7 @@ color: #246b9b;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 }
 
-benefit h3 {
+.benefit h3 {
     color: #246b9b;
     margin-bottom: 8px;
     font-size: 20px;
@@ -1114,6 +1500,42 @@ benefit h3 {
 }
 
 
+/* Individual validation messages */
+.field-error {
+    display: block;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    min-height: 0;
+}
+
+.field-error:empty {
+    display: none;
+}
+
+/* Red border when a field has an error */
+.donation-form input.input-error {
+    border: 2px solid red !important;
+    box-shadow: none !important;
+}
+
+/* Green border when a field is valid */
+.donation-form input.input-valid {
+    border: 1px solid #2e8b57;
+}
+
+/* Keep fields consistent with the contact form */
+.donation-form input {
+    width: 100%;
+    padding: 14px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
 /* Payment options */
 
 .payment-options {
@@ -1167,22 +1589,69 @@ benefit h3 {
 
 /* Thank you section */
 
-.thank-you-section {
+.thank-you-section-hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: #eef7fd;
+    background-color: #9ecae1;
 }
 
-.thank-you-section h2 {
+.thank-you-section-hero h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 42px;
     color: #17293a;
     margin-bottom: 15px;
 }
 
-.thank-you-section p {
+.thank-you-section-hero p {
     font-size: 18px;
     color: #555;
+}
+
+
+/* Donation error handeling */
+
+.donation-errors {
+    background-color: #fff5f5;
+    color: #b42318;
+    border: 1px solid #f5c2c0;
+    border-left: 5px solid #b42318;
+    border-radius: 7px;
+    padding: 15px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.donation-errors:empty {
+    display: none;
+}
+
+
+/* Success message */
+
+.donation-success {
+    background-color: #f4f8f4;
+    color: #2e8b57;
+    border: 1px solid #b7dfc5;
+    border-left: 5px solid #2e8b57;
+    border-radius: 7px;
+    padding: 15px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.donation-success:empty {
+    display: none;
+}
+
+
+/* Thank You Section */
+
+.thank-you-section {
+    text-align: center;
+    background: #ffffff;
+    padding: 60px 8%;
 }
 
 
@@ -1198,14 +1667,24 @@ benefit h3 {
 .about-hero {
    background-color: rgba(121, 183, 235, 0.92);;
    display: grid;
-   min-height: 520px;
+   text-align: center;
+   min-height: 100px;
 }
 
 .about-hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     padding: 70px;
+}
+
+.about-hero h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(48px, 6vw, 82px);
+    color:white;
+    font-style: italic;
+    padding: 15px;
 }
 
 .about-hero-content h2 {
@@ -1225,21 +1704,11 @@ benefit h3 {
 }
 
 .about-hero p {
-    font-size: 18px;
-    text-align: center;
+    font-size: clamp(18px, 2vw, 27px);
     color: white;
-    max-width: 600px;
-}
-
-.about-hero-image {
-    overflow: hidden;
-}
-
-.about-hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 .about-intro {
@@ -1268,15 +1737,16 @@ benefit h3 {
 }
 
 .about-intro-content .section-label {
-    font-size: 16px;
+    font-size: 28px;
     text-align: center;
     display: block;
     margin-bottom: 12px;
 }
 
 .about-intro-content > p:first-of-type {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
+    text-align: center;
     color: #17324d;
     line-height: 1.25;
     margin-bottom: 25px;
@@ -1284,7 +1754,8 @@ benefit h3 {
 
 .about-intro-content > p:not(:first-of-type) {
     font-size: 16px;
-    color: #555555;
+    text-align: center;
+    color: black;
     margin-bottom: 18px;
 }
 
@@ -1413,7 +1884,7 @@ benefit h3 {
 
 .values-card p {
     font-size: 15px;
-    color: #555555;
+    color: black;
 }
 
 .approach-section {
@@ -1437,7 +1908,7 @@ benefit h3 {
 
 .approach-content P {
     font-size: 17px;
-    color: #555555;
+    color: black;
     margin-bottom: 20px;
     max-width: 600px;
 }
@@ -1497,7 +1968,7 @@ benefit h3 {
 
 .about-join-content {
     font-size: 17px;
-    color: #555555;
+    color: black;
     max-width: 600px;
     margin-bottom: 30px;
 }
@@ -1543,7 +2014,7 @@ benefit h3 {
 .contact-hero {
     display: grid;
     background-color: rgba(121, 183, 235, 0.92);
-    min-height: 500px;
+    min-height: 100px;
 }
 
 .contact-hero-content {
@@ -1567,7 +2038,7 @@ benefit h3 {
 
 .contact-hero-content p {
     color: white;
-    font-size: 48px;
+    font-size: clamp(18px, 2vw, 27px);
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
@@ -1595,7 +2066,7 @@ benefit h3 {
 
 .contact-heading p:last-child {
     font-size: 17px;
-    color: #555;
+    color: black;
 }
 
 .contact-info-grid {
@@ -2004,12 +2475,14 @@ benefit h3 {
 }
 
 .enquiry-hero-content h1 {
-    font-size: clamp(32px, 5vw, 50px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(48px, 6vw, 82px);
+    font-style: italic;
     margin: 15px 0;
 }
 
 .enquiry-hero-content p {
-    font-size: 17px;
+    font-size: clamp(18px, 2vw, 27px);
     line-height: 1.7;
 }
 
@@ -2047,7 +2520,11 @@ benefit h3 {
     margin-top: 15px;
     color: #2e8b57;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.back-contact:hover {
+    color:#f28c28
 }
 
 /* Form box */
