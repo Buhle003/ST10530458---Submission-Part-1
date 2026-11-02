@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ST10530458---SUBMISSION-PART-1-URL/siemap.xml
+Sitemap: https://buhle003.github.io/ST10530458---Submission-Part-1-URL/siemap.xml

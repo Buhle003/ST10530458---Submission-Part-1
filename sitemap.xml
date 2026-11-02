@@ -3,38 +3,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/</loc>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/</loc>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/about.html</loc>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/about.html</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/programmes.html</loc>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/programmes.html</loc>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/impact.html</loc>
-        <priority>0.9</priority>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/creative-workshops.html</loc>
+        <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/contact.html</loc>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/volunteer-training.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/impact.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press.html</loc>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/enquiry.html</loc>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press-social-impact-award.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press-kliptown-chess.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press-mens-wellbeing.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press-western-cape.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/press-eastern-cape.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/donate.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/contact.html</loc>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://ST10530458---SUBMISSION-PART-1-URL/donate.html</loc>
-        <priority>0.9</priority>
+        <loc>https://buhle003.github.io/ST10530458---Submission-Part-1/enquiry.html</loc>
+        <priority>0.7</priority>
     </url>
 
 </urlset>
