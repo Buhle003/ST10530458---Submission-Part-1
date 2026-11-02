@@ -39,6 +39,11 @@ Removed dark mode button.
 - Added pictures to the hero of each page.
 - Was struggling with making sure the screen translated to smaller screens but was able to make it work.
 - Added html pages for each programme.
+- Added a press release section
+- Made htmls for each press release
+- Created an enquiry page
+- Added a search bar at the top of the page
+- Decided not to add a background image to each page hero
 
 References:
 • Mutua, W., 2026. How Much Does a Domain Cost in South Africa? (Revealed) [blog] 10 July. Available at:<https://truehost.co.za/cost-of-domain-name-south-africa/> [Accessed 20 August 2026]
